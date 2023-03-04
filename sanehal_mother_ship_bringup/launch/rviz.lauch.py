@@ -23,7 +23,6 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare("sanehal_mother_ship_bringup"), "config", "diffbot.rviz"]
     )
